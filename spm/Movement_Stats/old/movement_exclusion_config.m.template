@@ -1,0 +1,23 @@
+%-Configuration fiel for 
+%__________________________________________________________________________
+%-SCSNL, 2009-2012
+%-Tianwen, 2012-05-23
+
+%-Raw data server
+paralist.ServerPath = '/home/groups/menon/oak/rawdata/scsnl';
+
+% -Project directory
+paralist.project_dir = '/home/groups/menon/oak/projects/jnichola/testproject'
+
+%-Folder name that contains rp_I.txt (by default, it is the preprocessed
+% data folder
+paralist.PreprocessedFolder = 'smoothed_spm8';
+
+%-Subject list file
+paralist.SubjectList = '16-01-09.1_3T3';
+
+%-Session list file
+paralist.SessionList = {'comparison_dot'};
+
+%-Scan-to-scan threshold (unit in voxel)
+paralist.ScanToScanCrit = 0.5;

@@ -1,0 +1,59 @@
+%-Config file for taskdesign_generation.m
+%__________________________________________________________________________
+%-SCSNL, Tianwen Chen, 2011-10-17
+
+%-Server path
+paralist.ServerPath = '/fs/musk1';
+
+%-Subject list
+paralist.SubjectList = '12-03-18.1_3T3';
+
+%-Session list
+paralist.SessionList = 'comparison_dot';
+
+%-Edat folder name
+paralist.EDatFolder = 'behavioral';
+
+%-Global onset column (set the onset of real data collection)
+%-current only 1 column is supported
+%-If not specified, It will be read as the first REAL onset from OnsetColumns below
+paralist.GlobalOnsetColumn = 'Fixation.OnsetTime';
+
+%-Global onset shift: add a constant time to the first onset in 
+%-'GlobalOnsetColumn' above (can be positive or negative)
+paralist.GlobalOnsetShift = 0;
+
+%-Onset column name
+paralist.OnsetColumn = 'Choice.OnsetTime';
+
+%-Offset column name (empty if not used, e.g. duration column is used)
+paralist.OffsetColumn = 'Blank.OffsetTime';
+
+%-Duration column name (if specified, it will overide offset-onset)
+paralist.DurationColumn = '';
+
+%-Preset duration if no duration column AND no onset and offset columns (in seconds)
+%-make sure that you set it to empty if you use Duration colum or onset and offset columns
+paralist.PresetDuration = '';
+% paralist.PresetDuration = 6;
+
+%-Task categorization/condition column name, if none, use empty string
+paralist.TaskTypeColumn = {'Conditions', 'Choice.ACC'} ;
+
+%-Task names in the task_design.m (if empty, task names will be read from
+%-the 'TaskTypeColumn' above, but be careful about the task order)
+paralist.TaskName = {'little_near_correct', 'little_far_correct', 'big_near_correct', 'big_far_correct', 'incorrect'};
+
+%-Matched to the 'TaskTypeColumn' above
+paralist.MatchTaskName = {{'little_near', 1}, {'little_far', 1}, {'big_near', 1}, {'big_far', 1}, {'', 0}};
+
+%-Session name (make it empty to use the names in session list specified above)
+% paralist.SessionName = {'fixed_block_1', 'fixed_block_2'};
+paralist.SessionName = 'comparison_dot';
+
+%-Task design file name (*.m)
+paralist.TaskDesignFileName = 'task_design_test.m';
+
+%-Rest exist or not
+paralist.RestExist = 1;
+

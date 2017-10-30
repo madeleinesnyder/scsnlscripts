@@ -1,0 +1,82 @@
+% Parameter configuration for movement_stats.m
+% More information can be found in the HELP section below
+% _________________________________________________________________________
+% 2009 Stanford Cognitive and Systems Neuroscience Laboratory
+%
+% $Id: movement_stats_config.m.template 2009-08-06 $
+% -------------------------------------------------------------------------
+
+% Please specify the server partition path 
+% This is where your upper path is located
+paralist.server_path   = '/fs/musk1';
+
+% Please specify the parent folder folder name
+paralist.parent_folder = [''];
+% paralist.parent_folder = 'UCSF_Boxer2009';
+
+% Please specify subject list file (.txt file) or a cell array
+paralist.subjectlist = 'subjectslist.txt';
+
+% Please specify session list file (.txt file) or a cell array
+paralist.exp_sesslist = 'sessionslist.txt';
+% paralist.exp_sesslist= {'addition_block','addition_event_1',...}
+
+% Please specify the preprocess folder name
+paralist.preprocessfolder = 'smoothed_spm8';
+
+% =========================================================================
+% HELP on Configuration Setup
+% =========================================================================
+%
+% A template configuration file can be found at
+% /home/fmri/fmrihome/SPM/spm8_scripts/Movement_Stats/movement_stats_config.m.template
+%
+% -------------------------------------------------------------------------
+% This new configuration is to meet different data structures.
+% Currently, two different data structures are included: e.g.
+% <> /fs/plum2_share1/2009/09-05-01.1/fmri/rl
+% <> /fs/plum2_share1/UCSF_Boxer/2714/fmri/rl
+% 
+% For the first structure:
+% server_path is: '/mnt/plum2_share1'
+% parent_folder is: [''] (because subject name will take care of the year)
+% subjectlist is a .txt file or cell array containing '09-05-01.1' or others
+% exp_sesslist is a .txt file or cell array containing 'rl' or others
+% 
+% For the second structure:
+% server_path is: '/mnt/plum2_share1'
+% parent_folder is: 'UCSF_Boxer'
+% subjectlist is a .txt file or cell array containing '2714' or others
+% exp_sesslist is a .txt file or cell array containing 'rf' or otheres
+%
+% -------------------------- PARAMETER LIST -------------------------------
+%
+% paralist.<x>
+%
+% (01). x <- server_path:
+% The upper path name where your static fMRI data is located. The current
+% default is '/fs/plum2_share1'. Remember to update it when your data
+% moves. See the data structure example above.
+%
+% (02). x <- parent_folder:
+% This is the folder name contains subjects. Different rules for different 
+% data structure. See the data structure example above.
+%
+% (03). x <- subjectlist: 
+% The list of subjects. It can be a .txt file OR be a cell array, e.g. 
+% {'08-09-04.1','09-01-09.2',...}. 
+% If it is a .txt file, one subject per line
+%
+% (04). x <- exp_sesslist:
+% The list of sessions in a .txt file or a cell array
+% If it is a .txt file, one exp_session per line
+%
+% (05). x <- preprocessfolder:
+% This foldername is added because in SPM8 preprocessing steps, movement
+% data is moved to preprocessed folder, not in the unnormalized folder.
+% This is done to avoid the issue that multiple runs will overwrite the 
+% movement data file. The scripts will first search for the 'unnormalized'
+% folder and if there is no movement data file, it then searches
+% preprocessed folder you specified. If you believe your movement data file
+% is in the unnormalized folder, just leave the preprocessfolder unchanged.
+% =========================================================================

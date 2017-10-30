@@ -1,0 +1,38 @@
+% Configuration file for effconn_phipi.m
+% _________________________________________________________________________
+% 2009-2010 Stanford Cognitive and Systems Neuroscience Laboratory
+
+% Please specify the directory with processed data
+paralist.processed_dir = '/fs/musk2';
+
+% Please specify the parent folder of the static data
+% For YEAR data structure, use the first one
+% For NONE YEAR data structure, use the second one
+paralist.parent_dir = [''];
+% paralist.parent_dir = 'UCSFBoxer';
+
+% Please specify the subject list file (.txt) or a cell array
+paralist.subjectlist_file = '08-06-02.1';
+
+% Please specify the stats folder name (eg., stats_spm8)
+paralist.stats_dir = 'music_depression_stats_spm8';
+
+% Please specify the name of the ROI (exactly 2)
+paralist.roiname_list = {'VTA', 'NAc'};
+
+% Please specify the center of the ROI (in mm)
+paralist.roicenter_list = {[-8, -26, -8], [-14, 8, -10]};
+
+% Please specify the radius of the ROI (in mm)
+paralist.roiradius_list = [6, 6];
+
+% Please specify the session number
+paralist.session_value = 1;
+
+% Please specify the PPI interaction name
+paralist.contrast_type = 'music-scrambledmusic';
+
+% Please specify the contrast weights matrix
+% contrastweights_list = [a1 b1; a2 b2];
+% a* is the condition number, b* is the weight
+paralist.contrastweights_list = [1 1; 2 -1];

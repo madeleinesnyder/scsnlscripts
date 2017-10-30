@@ -1,0 +1,30 @@
+
+% _________________________________________________________________________
+% 2010 Stanford Cognitive and Systems Neuroscience Laboratory
+%
+% $Id: GenTaskDesign_intervention_config.m.template 2010-03-26 $
+% -------------------------------------------------------------------------
+%Config file for Task_Design
+
+%File path for where the subject list is:
+%The subject list must file needs to contain both  scan ID and subject
+%number. i.e. "10-03-20.1     520"
+subj_list   = '/mnt/apricot1_share1/intervention/individualstats/subjectslist.txt';
+
+%Experiment you're creating the tasks designs for (addition or subtraction)
+ expr_name   = 'addition';
+ 
+ %Name of the file in the directory where you're running this from that
+ %contains the E-merged file
+ data_file   = 'mergedAdd.txt';
+
+%What you want the task design folder to be name
+ task_dsgn   = 'task_design.m';
+ 
+ %If rest exists 1 if it doesn't 0.  The default is 1. 
+ rest_exists = 1;
+
+%Task Duration: Specify a constant value to be assigned as the task
+%duration OR for the task duration to be set as the RT set 
+%TASK_DURATION to -1
+ TASK_DURATION = -1;

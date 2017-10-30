@@ -1,0 +1,50 @@
+% This is the configuration template file for group analysis
+% More information can be found in the HELP section below
+% _________________________________________________________________________
+% 2009-2010 Stanford Cognitive and Systems Neuroscience Laboratory
+%
+% $Id: groupstats_config.m.template 2010-01-02 $
+% -------------------------------------------------------------------------
+
+% Please specify the individualstats server
+paralist.stats_path = '/fs/musk2';
+
+% Please specify the parent folder of the static data
+% For YEAR data structure, use the first one
+% For NONE YEAR data structure, use the second one
+paralist.parent_folder        = [''];
+% paralist.parent_folder = 'UCSFBoxer'
+
+% Please specify file name holding subjects to be analyzed
+% For two group stats, specify two subject list files. For eg.,
+% {'group1.txt', 'group2.txt'}.
+paralist.subjlist_file = {'SI_subjectlist_n22.txt'};  
+
+% Please specify the stats parent directory
+paralist.stats_parent = 'volume_repair_4cond_swgcavr_whiz_4run_6dur_Aug9_gPPI';
+
+% Please specify the stats folder path
+paralist.stats_children  = {'PPI_Left_FG',...
+    'PPI_Right_FG',...
+    'PPI_Left_hIP3',...
+    'PPI_Right_hIP3_v',...
+    'PPI_Left_hIP2',...
+    'PPI_Right_hIP2',...
+    'PPI_Left_MFG',...
+    'PPI_Right_MFG'};
+
+% Plese specify the folder path to put analysis results
+paralist.output_parent = '/fs/apricot1_share1/intervention/shortIntervention/group_stats/gPPI_test/';
+% Note, individual groupstats results will be saved in subdirectories of
+% output_parent, named according to stats_children
+
+% Please specify the file holding regressors
+% If there is no regressor, comment the first line and uncomment the second
+% line
+% paralist.reg_file = {'IQ.txt','EQ.txt'};
+paralist.reg_file = [''];
+
+% Please specify the folder path holding template batches
+paralist.template_path = '/home/fmri/fmrihome/SPM/spm8_scripts/BatchTemplates';
+
+

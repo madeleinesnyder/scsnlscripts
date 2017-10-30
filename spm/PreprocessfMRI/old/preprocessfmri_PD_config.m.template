@@ -1,0 +1,23 @@
+%-Configfile for preprocessfmri.m
+%__________________________________________________________________________
+%-SCSNL, Tianwen Chen, 2012-06-06
+
+paralist.ServerPath = '/fs/mandarin1/';
+
+%-Subject list
+paralist.SubjectList = '11-06-08.2_3T2';
+
+%-Session list
+paralist.SessionList = {'visual_auditory_block'};
+
+paralist.InputImgPrefix = '';
+
+%-"v" is the 1st version and "o" is the 2nd version of VolRepair pipeline
+%-The entire preprocessing to be completed
+%-Choose from: 'swar',  'swavr', 'swaor', 'swgcar',  'swgcavr', 'swgcaor'
+%-             'swfar', 'swfavr', 'swfaor', 'swgcfar', 'swgcfavr', 'swgcfaor'
+paralist.EntirePipeLine = 'swar';
+
+%-Additinal subject list for swgc** pipelines due to better SPGR quality,
+% one-to-one matched to paralist.SubjectList
+paralist.SPGRSubjectList = '';

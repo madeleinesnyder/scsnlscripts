@@ -1,0 +1,333 @@
+Current directory is: /oak/stanford/groups/menon/scsnlscripts/spm/IndividualStats
+------------------------------------------------------------------
+-------------- Contents of the Parameter List --------------------
+             data_dir: '/oak/stanford/groups/menon/rawdata/scsnl/'
+         template_dir: '/oak/stanford/groups/menon/scsnlscripts/spm/BatchTemplates'
+           image_type: 'nii'
+                   tr: 2
+     movement_include: 1
+          subjectlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_subjects.csv'
+              runlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_runlist.txt'
+    repairedstats_dir: 'stats_spm8_VolRepair'
+        contrast_file: 'contrasts.mat'
+            stats_dir: 'stats_spm8'
+            fmri_type: 'taskfmri'
+    volrepair_include: 0
+     preprocessed_dir: 'smoothed_spm8'
+      volrepaired_dir: 'volrepair_spm8'
+     volpipeline_type: 'swar'
+        pipeline_type: 'swar'
+          project_dir: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/'
+      taskdesign_file: 'task_design.m'
+           parent_dir: ''
+              subject: 9
+
+------------------------------------------------------------------
+Processing Subject: 3413 
+--------------------------------------------------------------
+NEW FILE BITCHES
+Creating the directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3413/visit1/session1/fmri/stats_spm8 
+[Warning: Directory already exists.] 
+[> In individualstats (line 126)] 
+Changing to directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3413/visit1/session1/fmri/stats_spm8 
+Cannot find task design file in task_design folder.
+Current directory is: /oak/stanford/groups/menon/scsnlscripts/spm/IndividualStats
+------------------------------------------------------------------
+-------------- Contents of the Parameter List --------------------
+             data_dir: '/oak/stanford/groups/menon/rawdata/scsnl/'
+         template_dir: '/oak/stanford/groups/menon/scsnlscripts/spm/BatchTemplates'
+           image_type: 'nii'
+                   tr: 2
+     movement_include: 1
+          subjectlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_subjects.csv'
+              runlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_runlist.txt'
+    repairedstats_dir: 'stats_spm8_VolRepair'
+        contrast_file: 'contrasts.mat'
+            stats_dir: 'stats_spm8'
+            fmri_type: 'taskfmri'
+    volrepair_include: 0
+     preprocessed_dir: 'smoothed_spm8'
+      volrepaired_dir: 'volrepair_spm8'
+     volpipeline_type: 'swar'
+        pipeline_type: 'swar'
+          project_dir: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/'
+      taskdesign_file: 'task_design.m'
+           parent_dir: ''
+              subject: 6
+
+------------------------------------------------------------------
+Processing Subject: 3082 
+--------------------------------------------------------------
+NEW FILE BITCHES
+Creating the directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3082/visit1/session1/fmri/stats_spm8 
+[Warning: Directory already exists.] 
+[> In individualstats (line 126)] 
+Changing to directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3082/visit1/session1/fmri/stats_spm8 
+The stats directory contains SPM.mat. It will be deleted.
+
+taskmatfile =
+
+    '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3082/visit1/session1/fmri/oddball_audito/task_design.mat'
+
+Running the task design file: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3082/visit1/session1/fmri/oddball_audito/task_design.m 
+/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3082/visit1/session1/fmri/oddball_audito/smoothed_spm8/rp_I.txt
+Updating the task design with movement covariates
+contrasts.mat
+{Undefined function or variable 'tr'.
+
+Error in individualstats>individualfmri (line 323)
+TR = tr;
+
+Error in individualstats (line 244)
+  individualfmri(pipeline,numruns,contrastmat,foname);
+} 
+Current directory is: /oak/stanford/groups/menon/scsnlscripts/spm/IndividualStats
+------------------------------------------------------------------
+-------------- Contents of the Parameter List --------------------
+             data_dir: '/oak/stanford/groups/menon/rawdata/scsnl/'
+         template_dir: '/oak/stanford/groups/menon/scsnlscripts/spm/BatchTemplates'
+           image_type: 'nii'
+                   tr: 2
+     movement_include: 1
+          subjectlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_subjects.csv'
+              runlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_runlist.txt'
+    repairedstats_dir: 'stats_spm8_VolRepair'
+        contrast_file: 'contrasts.mat'
+            stats_dir: 'stats_spm8'
+            fmri_type: 'taskfmri'
+    volrepair_include: 0
+     preprocessed_dir: 'smoothed_spm8'
+      volrepaired_dir: 'volrepair_spm8'
+     volpipeline_type: 'swar'
+        pipeline_type: 'swar'
+          project_dir: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/'
+      taskdesign_file: 'task_design.m'
+           parent_dir: ''
+              subject: 10
+
+------------------------------------------------------------------
+Processing Subject: 3414 
+--------------------------------------------------------------
+NEW FILE BITCHES
+Creating the directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3414/visit1/session1/fmri/stats_spm8 
+[Warning: Directory already exists.] 
+[> In individualstats (line 126)] 
+Changing to directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3414/visit1/session1/fmri/stats_spm8 
+The stats directory contains SPM.mat. It will be deleted.
+
+taskmatfile =
+
+    '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3414/visit1/session1/fmri/oddball_audito/task_design.mat'
+
+Running the task design file: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3414/visit1/session1/fmri/oddball_audito/task_design.m 
+/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3414/visit1/session1/fmri/oddball_audito/smoothed_spm8/rp_I.txt
+Updating the task design with movement covariates
+contrasts.mat
+{Undefined function or variable 'tr'.
+
+Error in individualstats>individualfmri (line 323)
+TR = tr;
+
+Error in individualstats (line 244)
+  individualfmri(pipeline,numruns,contrastmat,foname);
+} 
+Current directory is: /oak/stanford/groups/menon/scsnlscripts/spm/IndividualStats
+------------------------------------------------------------------
+-------------- Contents of the Parameter List --------------------
+             data_dir: '/oak/stanford/groups/menon/rawdata/scsnl/'
+         template_dir: '/oak/stanford/groups/menon/scsnlscripts/spm/BatchTemplates'
+           image_type: 'nii'
+                   tr: 2
+     movement_include: 1
+          subjectlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_subjects.csv'
+              runlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_runlist.txt'
+    repairedstats_dir: 'stats_spm8_VolRepair'
+        contrast_file: 'contrasts.mat'
+            stats_dir: 'stats_spm8'
+            fmri_type: 'taskfmri'
+    volrepair_include: 0
+     preprocessed_dir: 'smoothed_spm8'
+      volrepaired_dir: 'volrepair_spm8'
+     volpipeline_type: 'swar'
+        pipeline_type: 'swar'
+          project_dir: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/'
+      taskdesign_file: 'task_design.m'
+           parent_dir: ''
+              subject: 7
+
+------------------------------------------------------------------
+Processing Subject: 3411 
+--------------------------------------------------------------
+NEW FILE BITCHES
+Creating the directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3411/visit1/session1/fmri/stats_spm8 
+[Warning: Directory already exists.] 
+[> In individualstats (line 126)] 
+Changing to directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3411/visit1/session1/fmri/stats_spm8 
+The stats directory contains SPM.mat. It will be deleted.
+
+taskmatfile =
+
+    '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3411/visit1/session1/fmri/oddball_audito/task_design.mat'
+
+Running the task design file: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3411/visit1/session1/fmri/oddball_audito/task_design.m 
+/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3411/visit1/session1/fmri/oddball_audito/smoothed_spm8/rp_I.txt
+Updating the task design with movement covariates
+contrasts.mat
+{Undefined function or variable 'tr'.
+
+Error in individualstats>individualfmri (line 323)
+TR = tr;
+
+Error in individualstats (line 244)
+  individualfmri(pipeline,numruns,contrastmat,foname);
+} 
+Current directory is: /oak/stanford/groups/menon/scsnlscripts/spm/IndividualStats
+------------------------------------------------------------------
+-------------- Contents of the Parameter List --------------------
+             data_dir: '/oak/stanford/groups/menon/rawdata/scsnl/'
+         template_dir: '/oak/stanford/groups/menon/scsnlscripts/spm/BatchTemplates'
+           image_type: 'nii'
+                   tr: 2
+     movement_include: 1
+          subjectlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_subjects.csv'
+              runlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_runlist.txt'
+    repairedstats_dir: 'stats_spm8_VolRepair'
+        contrast_file: 'contrasts.mat'
+            stats_dir: 'stats_spm8'
+            fmri_type: 'taskfmri'
+    volrepair_include: 0
+     preprocessed_dir: 'smoothed_spm8'
+      volrepaired_dir: 'volrepair_spm8'
+     volpipeline_type: 'swar'
+        pipeline_type: 'swar'
+          project_dir: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/'
+      taskdesign_file: 'task_design.m'
+           parent_dir: ''
+              subject: 11
+
+------------------------------------------------------------------
+Processing Subject: 3415 
+--------------------------------------------------------------
+NEW FILE BITCHES
+Creating the directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3415/visit1/session1/fmri/stats_spm8 
+[Warning: Directory already exists.] 
+[> In individualstats (line 126)] 
+Changing to directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3415/visit1/session1/fmri/stats_spm8 
+The stats directory contains SPM.mat. It will be deleted.
+
+taskmatfile =
+
+    '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3415/visit1/session1/fmri/oddball_audito/task_design.mat'
+
+Running the task design file: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3415/visit1/session1/fmri/oddball_audito/task_design.m 
+/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3415/visit1/session1/fmri/oddball_audito/smoothed_spm8/rp_I.txt
+Updating the task design with movement covariates
+contrasts.mat
+{Undefined function or variable 'tr'.
+
+Error in individualstats>individualfmri (line 323)
+TR = tr;
+
+Error in individualstats (line 244)
+  individualfmri(pipeline,numruns,contrastmat,foname);
+} 
+Current directory is: /oak/stanford/groups/menon/scsnlscripts/spm/IndividualStats
+------------------------------------------------------------------
+-------------- Contents of the Parameter List --------------------
+             data_dir: '/oak/stanford/groups/menon/rawdata/scsnl/'
+         template_dir: '/oak/stanford/groups/menon/scsnlscripts/spm/BatchTemplates'
+           image_type: 'nii'
+                   tr: 2
+     movement_include: 1
+          subjectlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_subjects.csv'
+              runlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_runlist.txt'
+    repairedstats_dir: 'stats_spm8_VolRepair'
+        contrast_file: 'contrasts.mat'
+            stats_dir: 'stats_spm8'
+            fmri_type: 'taskfmri'
+    volrepair_include: 0
+     preprocessed_dir: 'smoothed_spm8'
+      volrepaired_dir: 'volrepair_spm8'
+     volpipeline_type: 'swar'
+        pipeline_type: 'swar'
+          project_dir: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/'
+      taskdesign_file: 'task_design.m'
+           parent_dir: ''
+              subject: 5
+
+------------------------------------------------------------------
+Processing Subject: 3080 
+--------------------------------------------------------------
+NEW FILE BITCHES
+Creating the directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3080/visit1/session1/fmri/stats_spm8 
+[Warning: Directory already exists.] 
+[> In individualstats (line 126)] 
+Changing to directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3080/visit1/session1/fmri/stats_spm8 
+The stats directory contains SPM.mat. It will be deleted.
+
+taskmatfile =
+
+    '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3080/visit1/session1/fmri/oddball_audito/task_design.mat'
+
+Running the task design file: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3080/visit1/session1/fmri/oddball_audito/task_design.m 
+/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3080/visit1/session1/fmri/oddball_audito/smoothed_spm8/rp_I.txt
+Updating the task design with movement covariates
+contrasts.mat
+{Undefined function or variable 'tr'.
+
+Error in individualstats>individualfmri (line 323)
+TR = tr;
+
+Error in individualstats (line 244)
+  individualfmri(pipeline,numruns,contrastmat,foname);
+} 
+Current directory is: /oak/stanford/groups/menon/scsnlscripts/spm/IndividualStats
+------------------------------------------------------------------
+-------------- Contents of the Parameter List --------------------
+             data_dir: '/oak/stanford/groups/menon/rawdata/scsnl/'
+         template_dir: '/oak/stanford/groups/menon/scsnlscripts/spm/BatchTemplates'
+           image_type: 'nii'
+                   tr: 2
+     movement_include: 1
+          subjectlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_subjects.csv'
+              runlist: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/subjectlist/oddball_runlist.txt'
+    repairedstats_dir: 'stats_spm8_VolRepair'
+        contrast_file: 'contrasts.mat'
+            stats_dir: 'stats_spm8'
+            fmri_type: 'taskfmri'
+    volrepair_include: 0
+     preprocessed_dir: 'smoothed_spm8'
+      volrepaired_dir: 'volrepair_spm8'
+     volpipeline_type: 'swar'
+        pipeline_type: 'swar'
+          project_dir: '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/'
+      taskdesign_file: 'task_design.m'
+           parent_dir: ''
+              subject: 8
+
+------------------------------------------------------------------
+Processing Subject: 3412 
+--------------------------------------------------------------
+NEW FILE BITCHES
+Creating the directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3412/visit1/session1/fmri/stats_spm8 
+[Warning: Directory already exists.] 
+[> In individualstats (line 126)] 
+Changing to directory: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/results/taskfmri/participants/3412/visit1/session1/fmri/stats_spm8 
+The stats directory contains SPM.mat. It will be deleted.
+
+taskmatfile =
+
+    '/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3412/visit1/session1/fmri/oddball_audito/task_design.mat'
+
+Running the task design file: /oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3412/visit1/session1/fmri/oddball_audito/task_design.m 
+/oak/stanford/groups/menon/projects/tianwenc/2017_fmriprep/data/imaging/participants/3412/visit1/session1/fmri/oddball_audito/smoothed_spm8/rp_I.txt
+Updating the task design with movement covariates
+contrasts.mat
+{Undefined function or variable 'tr'.
+
+Error in individualstats>individualfmri (line 323)
+TR = tr;
+
+Error in individualstats (line 244)
+  individualfmri(pipeline,numruns,contrastmat,foname);
+} 

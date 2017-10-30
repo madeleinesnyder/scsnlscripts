@@ -1,0 +1,65 @@
+This directory holds lab scripts which have been converted for use on sherlock.
+
+Scripts that are currently working and integrated with slurm and the new python config structure (Utility/config.py):
+=======================================================
+
+Preprocessing
+-----------------
+JN 5/15/17 (tested swar only)
+config: PreprocessfMRI/preprocessfmri_config.py
+script: PreprocessfMRI/preprocessfmri.m
+
+Individual Stats
+----------------
+JN 5/19/17
+config: IndividualStats/individualstats_config.py
+script: IndividualStats/individualstats.m
+
+Group Stats
+---------------
+JN 5/24/17
+config: GroupStats/groupstats_config.py
+script: GroupStats/groupstats.m
+
+Functional Connectivity
+---------------
+JN 5/26/17
+config: FunctionalConnectivity/Seed_WholeBrain/fconnect_config.py
+script: FunctionalConnectivity/Seed_WholeBrain/fconnect.m
+
+JN 5/26/17
+config: FunctionalConnectivity/Seed_WholeBrain/fconnect_groupstats_config.py
+script: FunctionalConnectivity/Seed_WholeBrain/fconnect_groupstats.m
+
+gPPI
+--------------
+JN 5/30/17
+config: EffectiveConnectivity/gPPI/gPPI_config.py
+script: EffectiveConnectivity/gPPI/scsnl_gPPI.m
+
+Contrast Change
+--------------
+JN 6/6/2017
+config: ContrastChange/contrastchange_config.py
+script: ContrastChange/constractchange.m
+
+
+Scripts that are currently working but are not integrated with slurm:
+=======================================================
+TODO: Need a good submission structure for these that automatically 
+      adds dependencies, loads matlab, etc
+
+
+Movement Exclusion
+---------------
+JN 5/24/2017
+config: Movement_Stats/movement_exclusion_config.m.template
+script: Movement_Stats/movement_exclusion.m
+
+Contrast Generation
+---------------
+JN 5/19/17
+config: ContrastGenerator/Contrast_Generator_config.m.template
+script: ContrastGenerator/Contrast_Generator.m
+
+

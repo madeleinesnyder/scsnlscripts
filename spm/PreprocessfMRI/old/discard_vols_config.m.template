@@ -1,0 +1,19 @@
+%-Configuration file for discard_vols.m
+%__________________________________________________________________________
+%-Stanford SCSNL
+%-Tianwen Chen, 2011-10-11
+
+%-Raw data server path
+paralist.ServerPath = '/fs/musk1';
+
+%-Raw data folder (unnormalized)
+paralist.RawDataFolder = 'unnormalized';
+
+%-Subject list
+paralist.SubjList = '11-10-03.1_CNI';
+
+%-Session list
+paralist.SessionList = {'day1_encoding1', 'day1_encoding2'};
+
+%-Number of vols to be discarded (1st slot: # from the beginning, 2nd slot: # from the end)
+paralist.DiscardVols = [5 0];

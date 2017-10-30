@@ -1,0 +1,62 @@
+Current directory is: /home/groups/menon/oak/scsnlscripts/spm/EffectiveConnectivity
+------------------------------------------------------------------
+===> gPPI for ROI: right_ips
+------> processing subject: 12-06-16.1_3T3
+gzip: /fs/musk1/2012/12-06-16.1_3T3/fmri/arithmetic_addition_1/smoothed_spm8/swaorI.nii.gz: No such file or directory
+[Warning:
+c is not a proper contrast in +c->Tsp in spm_SpUtil
+!!! projecting...] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spm_SpUtil', '/home/groups/menon/lab_shared/software/spm8/spm_SpUtil.m', 327)" style="font-weight:bold">spm_SpUtil</a> (<a href="matlab: opentoline('/home/groups/menon/lab_shared/software/spm8/spm_SpUtil.m',327,0)">line 327</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spm_FcUtil', '/home/groups/menon/lab_shared/software/spm8/spm_FcUtil.m', 219)" style="font-weight:bold">spm_FcUtil</a> (<a href="matlab: opentoline('/home/groups/menon/lab_shared/software/spm8/spm_FcUtil.m',219,0)">line 219</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('scsnl_gPPI', '/home/groups/menon/oak/scsnlscripts/spm/EffectiveConnectivity/gPPI/scsnl_gPPI.m', 160)" style="font-weight:bold">scsnl_gPPI</a> (<a href="matlab: opentoline('/home/groups/menon/oak/scsnlscripts/spm/EffectiveConnectivity/gPPI/scsnl_gPPI.m',160,0)">line 160</a>)] 
+from
+
+c =
+
+     1     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     1     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     1     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     1     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     1     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     1     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     1     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     1     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+     0     0     0     0     0     0     0     0     0     0     0     0     0     0     0
+
+to
+
+c =
+
+    1.0000         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+         0    1.0000         0         0         0         0         0         0         0         0         0         0         0         0         0
+         0         0    1.0000         0         0         0         0         0         0         0         0         0         0         0         0
+         0         0         0    1.0000         0         0         0         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0    1.0000         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0    1.0000         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+
+	ESS image  9                    :                   ...computing(spm_resss)    ...initialising...plane   1/91 ...plane   2/91 ...plane   3/91 ...plane   4/91 ...plane   5/91 ...plane   6/91 ...plane   7/91 ...plane   8/91 ...plane   9/91 ...plane  10/91 ...plane  11/91 ...plane  12/91 ...plane  13/91 ...plane  14/91 ...plane  15/91 ...plane  16/91 ...plane  17/91 ...plane  18/91 ...plane  19/91 ...plane  20/91 ...plane  21/91 ...plane  22/91 ...plane  23/91 ...plane  24/91 ...plane  25/91 ...plane  26/91 ...plane  27/91 ...plane  28/91 ...plane  29/91 ...plane  30/91 ...plane  31/91 ...plane  32/91 ...plane  33/91 ...plane  34/91 ...plane  35/91 ...plane  36/91 ...plane  37/91 ...plane  38/91 ...plane  39/91 ...plane  40/91 ...plane  41/91 ...plane  42/91 ...plane  43/91 ...plane  44/91 ...plane  45/91 ...plane  46/91 ...plane  47/91 ...plane  48/91 ...plane  49/91 ...plane  50/91 ...plane  51/91 ...plane  52/91 ...plane  53/91 ...plane  54/91 ...plane  55/91 ...plane  56/91 ...plane  57/91 ...plane  58/91 ...plane  59/91 ...plane  60/91 ...plane  61/91 ...plane  62/91 ...plane  63/91 ...plane  64/91 ...plane  65/91 ...plane  66/91 ...plane  67/91 ...plane  68/91 ...plane  69/91 ...plane  70/91 ...plane  71/91 ...plane  72/91 ...plane  73/91 ...plane  74/91 ...plane  75/91 ...plane  76/91 ...plane  77/91 ...plane  78/91 ...plane  79/91 ...plane  80/91 ...plane  81/91 ...plane  82/91 ...plane  83/91 ...plane  84/91 ...plane  85/91 ...plane  86/91 ...plane  87/91 ...plane  88/91 ...plane  89/91 ...plane  90/91 ...plane  91/91        ...written ess_0009.img
+	spm{F} image  9                 :                   ...computing                    ...writing      ...written spmF_0009.img
+{Undefined function or variable 'asdf'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('scsnl_gPPI', '/home/groups/menon/oak/scsnlscripts/spm/EffectiveConnectivity/gPPI/scsnl_gPPI.m', 175)" style="font-weight:bold">scsnl_gPPI</a> (<a href="matlab: opentoline('/home/groups/menon/oak/scsnlscripts/spm/EffectiveConnectivity/gPPI/scsnl_gPPI.m',175,0)">line 175</a>)
+    asdf
+} 
+scsnl_gPPI(c)
+==================================================================
+gPPI start at 2017/06/05 10:56:30
+==================================================================

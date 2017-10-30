@@ -1,0 +1,42 @@
+% This configuration file is for old_fconn_task_ROI.m
+%
+%__________________________________________________________________________
+% 2009-2010 Stanford Cognitive and Systems Neuroscience Laboratory
+%
+% $Id: old_fconn_task_ROI_config.m.template 2010-03-26 $
+% -------------------------------------------------------------------------
+
+% Please specify the participant folder path
+paralist.participant_path = '/fs/apricot1_share1/arithmetic_md/strategy_imaging_project/participants';
+
+% Please specify the subject list file (.txt) or a cell array
+paralist.subjectlist = '/home/tianwenc/roi_fconn_test/12retrievers.txt';
+
+% Please specify the stats folder name (eg., stats_spm8) 
+paralist.stats_folder = 'add_block';
+
+% Please specify the path of the ROI folder. 
+% All .mat files under this folder are assumed to be ROI mat files.
+paralist.roi_folder = '/home/tianwenc/ROI_folder';
+
+% Please specify the list of ROIs
+paralist.roi_list = 'roilist.txt';
+% use all ROIs in the roi folder above
+% paralist.roi_list = [''];
+
+% Please specify whether to remove effects of global signal
+% 1: remove; 0: do not remove
+paralist.rm_global_ts = 1;
+
+% Please specify the number of scans to truncate from the ROI timeseries
+% start from the beginning of each task block
+paralist.num_trunc = 2;
+
+% Please specify whether to filter ROI timeseries (zero-mean and detrend)
+% 1 for filtering; 0 for no filtering
+paralist.filter = 1;
+
+% Please specify the TR
+paralist.TR = 2;
+
+%-------------------------------------------------------------------------%

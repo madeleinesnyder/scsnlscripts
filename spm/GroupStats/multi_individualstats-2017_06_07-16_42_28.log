@@ -1,0 +1,59 @@
+Current directory is: /home/groups/menon/oak/scsnlscripts/spm/GroupStats
+------------------------------------------------------------------
+
+config = 
+
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+              subject: [2×10 char]
+          sessionlist: '/scratch/PI/menon/projects/jnichola/2017/script_testing/sessionlist.txt'
+              datadir: '/home/groups/menon/oak/rawdata/scsnl'
+        pipeline_type: 'swar'
+          project_dir: '/home/groups/menon/oak/projects/jnichola/testproject'
+      taskdesign_file: 'task_design_test.m'
+        contrast_file: 'contrasts.mat'
+     movement_include: 1
+            fmri_type: 'taskfmri'
+            stats_dir: 'stats_spm8'
+     preprocessed_dir: 'smoothed_spm8'
+           image_type: 'nii'
+     volpipeline_type: 'swavr'
+      volrepaired_dir: 'volrepair_spm8'
+    repairedstats_dir: 'stats_spm8_VolRepair'
+    volrepair_include: 0
+         template_dir: '/home/groups/menon/oak/scsnlscripts/spm/BatchTemplates'
+
+
+fmri_type =
+
+    'taskfmri'
+
+-------------- Contents of the Parameter List --------------------
+              subject: [2×10 char]
+          sessionlist: '/scratch/PI/menon/projects/jnichola/2017/script_testing/sessionlist.txt'
+              datadir: '/home/groups/menon/oak/rawdata/scsnl'
+        pipeline_type: 'swar'
+          project_dir: '/home/groups/menon/oak/projects/jnichola/testproject'
+      taskdesign_file: 'task_design_test.m'
+        contrast_file: 'contrasts.mat'
+     movement_include: 1
+            fmri_type: 'taskfmri'
+            stats_dir: 'stats_spm8'
+     preprocessed_dir: 'smoothed_spm8'
+           image_type: 'nii'
+     volpipeline_type: 'swavr'
+      volrepaired_dir: 'volrepair_spm8'
+    repairedstats_dir: 'stats_spm8_VolRepair'
+    volrepair_include: 0
+         template_dir: '/home/groups/menon/oak/scsnlscripts/spm/BatchTemplates'
+
+------------------------------------------------------------------
+{Cell contents reference from a non-cell array object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('multi_individualstats', '/home/groups/menon/oak/scsnlscripts/spm/IndividualStats/multi_individualstats.m', 76)" style="font-weight:bold">multi_individualstats</a> (<a href="matlab: opentoline('/home/groups/menon/oak/scsnlscripts/spm/IndividualStats/multi_individualstats.m',76,0)">line 76</a>)
+  subjects{i} = ReadList(subjectlist{i});
+} 
+multi_individualstats(c)
+==================================================================
+fMRI Multisession IndividualStats start at 2017/06/07 16:43:32 
+==================================================================

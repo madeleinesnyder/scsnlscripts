@@ -1,0 +1,24 @@
+Current directory is: /home/groups/menon/oak/scsnlscripts/spm/GroupStats
+------------------------------------------------------------------
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('strtrim')" style="font-weight:bold">strtrim</a>
+Input should be a string, character array, or a cell array of character arrays.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('multi_individualstats', '/home/groups/menon/oak/scsnlscripts/spm/IndividualStats/multi_individualstats.m', 19)" style="font-weight:bold">multi_individualstats</a> (<a href="matlab: opentoline('/home/groups/menon/oak/scsnlscripts/spm/IndividualStats/multi_individualstats.m',19,0)">line 19</a>)
+Config_File = strtrim(Config_File);
+} 
+c
+
+c =
+
+        2017           6           7          16          45          46
+
+config = '/scratch/users/jnichola/config_files/config_args_multi_individualstats_multi_11-01-08.2_11-03-11.1.mat'
+
+config =
+
+    '/scratch/users/jnichola/config_files/config_args_multi_individualstats_multi_11-01-08.2_11-03-11.1.mat'
+
+multi_individualstats(config)
+==================================================================
+fMRI Multisession IndividualStats start at 2017/06/07 16:48:04 
+==================================================================

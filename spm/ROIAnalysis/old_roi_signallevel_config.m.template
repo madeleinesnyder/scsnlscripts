@@ -1,0 +1,28 @@
+%This configuration file is read by old_roi_signallevel.m
+%
+%__________________________________________________________________________
+% 2009-2010 Stanford Cognitive and Systems Neuroscience Laboratory
+%
+% $Id: old_roi_signallevel_config.m.template 2009-07-15 $
+% -------------------------------------------------------------------------
+
+% Please specify the participant folder which contains SPM analysis files
+paralist.participant_folder = '/fs/plum1_share1/arithmetic_block/participants';
+
+% Please specify the subject list (in a .txt file or cell array
+paralist.subjlist_file  = 'subjectslist.txt';
+
+% Please specify the folder containing SPM analysis results
+paralist.stats_folder  = 'stats_arabic_roman';
+
+% Please specify the folder (full path) holding defined ROIs
+paralist.roi_folder    = '/fs/plum1_share1/kumar_roi/';
+
+% Please specify the t statistic threshold
+paralist.tscore_threshold = 2.33;
+
+% Please specify the folder name to hold saved roi statistics
+% You can change it to different studies or settings
+paralist.roi_result_folder = 'roi_stats';
+
+%--------------------------------------------------------------------------

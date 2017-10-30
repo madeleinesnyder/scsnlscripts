@@ -1,0 +1,42 @@
+% Configuration file for fconnect_scrub.m
+% _________________________________________________________________________
+% 2009-2011 Stanford Cognitive and Systems Neuroscience Laboratory
+%
+% $Id: fconnect_scrub_config.m.template 01-20-2016 $
+% -------------------------------------------------------------------------
+
+% Path to raw data directory (usually musk1)
+paralist.raw_dir = '/fs/musk1';
+
+% Directory for script output (the results)
+paralist.results_dir  = '/fs/apricot1_share1/HFA_Rest/group_stats/ASD_DMN_CL/Results_ScrubGlm/RSC';
+
+% file containing the subject list
+paralist.subjectlist_file = '/fs/apricot1_share1/HFA_Rest/scripts/subjectlist_TD_n19.txt';
+
+% Prefix for the preprocessing pipeline used
+paralist.pipeline_type = 'swar';
+
+% Directory for session. By default, 'resting_state_1' under 'fmri'
+paralist.session_dir = 'resting_state_1';
+
+% Directory for preprocessed data. By default, 'smoothed_spm8' under 'resting_state_1';
+paralist.preprocessed_dir = 'smoothed_spm8';
+
+% By default, bandpass is on (1 for on; 0 for off)
+paralist.bandpass_include  = 1;
+
+% Value for lower bound of frequency
+paralist.fl_value = 0.008;
+
+% Value for higher bound of frequency
+paralist.fh_value  = 0.1;
+
+% Directory where roi files are located
+paralist.roi_dir = '/fs/apricot1_share1/HFA_Rest/scripts/ROIs/Margulies_ROIs/Margulies_RSC_Seed2/';
+
+%-ROI list
+paralist.roi_list = 'list.txt';
+
+%-Number of scans to be discarded at the beginning and at the end
+paralist.numtrunc_value = [8 0];

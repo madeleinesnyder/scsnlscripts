@@ -1,0 +1,9 @@
+%-Configfile for preprocessfmri_globalsignal.m
+%__________________________________________________________________________
+%-SCSNL, Tianwen Chen, 2012-03-27
+
+%-Subject list
+paralist.SubjectList = '11-06-08.2_3T2';
+
+%-Session list
+paralist.SessionList = {'visual_auditory_block'};

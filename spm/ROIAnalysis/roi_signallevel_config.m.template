@@ -1,0 +1,37 @@
+%This configuration file is read by roi_signallevel.m
+%
+%__________________________________________________________________________
+% 2009-2010 Stanford Cognitive and Systems Neuroscience Laboratory
+%
+% $Id: roi_signallevel_config.m.template 2010-01-24 $
+% -------------------------------------------------------------------------
+
+% Please specify the server path
+paralist.server_path = '/mnt/apricot1_share5';
+
+% Please specify the parent folder
+paralist.parent_folder = [''];
+
+% Please specify the subject list (in a .txt file or cell array
+paralist.subjlist_file  = 'subjectslist.txt';
+
+% Please specify the folder containing SPM analysis results
+paralist.stats_folder  = 'stats_arabic_roman';
+
+% Please specify the folder (full path) holding defined ROIs
+paralist.roi_folder    = '/fs/plum1_share1/kumar_roi/';
+
+% Please specify roi list file (with file name extensions)
+paralist.roi_list = 'list.txt';
+
+% Please specify the t statistic threshold
+paralist.tscore_threshold = 2.33;
+
+% Please specify the folder name to hold saved roi statistics
+% You can change it to different studies or settings
+paralist.roi_result_folder = 'roi_stats';
+
+% Please specify the path of the Marsbar toolbox 
+paralist.marsbar_path = '/home/fmri/fmrihome/SPM/spm8/toolbox/marsbar';
+
+%--------------------------------------------------------------------------

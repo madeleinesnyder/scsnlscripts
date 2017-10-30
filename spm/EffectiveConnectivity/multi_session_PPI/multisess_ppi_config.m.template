@@ -1,0 +1,38 @@
+% Configuration file for effconn_multisess_ppi_volrep.m
+% _________________________________________________________________________
+% 2013 Stanford Cognitive and Systems Neuroscience Laboratory
+
+% Please specify the directory with processed data
+paralist.processed_dir = '/mnt/musk2';
+
+% Please specify the parent folder of the static data
+% For YEAR data structure, use the first one
+% For NONE YEAR data structure, use the second one
+paralist.parent_dir        = [''];
+% paralist.parent_dir = 'UCSFBoxer';
+
+% Please specify the subject list file (.txt) or a cell array
+paralist.subjectlist_file = 'SI_subjectlist_n22.txt';
+
+% Please specify the stats folder name
+paralist.statsfolder_file = 'volume_repair_4cond_swgcavr_whiz_4run_Dec17';
+
+% Please specify the artrepair pipeline
+paralist.pipeline_type = 'swgcavr';
+
+% Please specify the session list
+paralist.session_list = {'addition1', 'addition2', 'addition3', 'addition4'};
+
+% Please specify the .nii file(s) for the ROI(s)
+paralist.roifile_list = {'/home/fmri/fmrihome/SPM/spm8_scripts/Cyto_ROIs/ROI_R_AIPS_IP2_MNI.nii','/home/fmri/fmrihome/SPM/spm8_scripts/Cyto_ROIs/ROI_L_IPC_PGa_MNI.nii','/fs/apricot1_share1/intervention/shortIntervention/roi/AAL_Hipp_Left_-25_-22_-11.nii','/fs/apricot1_share1/intervention/shortIntervention/roi/AAL_Hipp_Right_29_-21_-12.nii'};
+
+% Please specify the name(s) of the ROI(s)
+paralist.roiname_list = {'R_HIP2_2cond','L_PGa_2cond','AAL_Hipp_Left_2cond','AAL_Hipp_Right_2cond'};
+
+% Please specify the PPI interaction name
+paralist.contrast_type = 'trained-untrained';
+
+% Please specify the contrast weights matrix
+% contrastweights_value = [a1 b1; a2 b2];
+% a* is the condition number, b* is the weight
+paralist.contrastweights_value =  [1 1;3 -1];

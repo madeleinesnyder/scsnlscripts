@@ -1,0 +1,38 @@
+% Configuration file for effconn_ppi.m
+% _________________________________________________________________________
+% 2009-2010 Stanford Cognitive and Systems Neuroscience Laboratory
+
+% Please specify the directory for processed data
+paralist.processed_dir = '/fs/musk2';
+
+% Please specify the parent folder of the static data
+% For YEAR data structure, use the first one
+% For NONE YEAR data structure, use the second one
+paralist.parent_dir = [''];
+% paralist.parent_dir = 'UCSFBoxer';
+
+% Please specify the subject list file (.txt) or a cell array
+paralist.subjectlist_file = '08-10-26.1';
+
+% Please specify the stats folder name (eg., stats_spm8)
+paralist.stats_dir = 'addblock_stats_spm8_artrepair';
+
+% Please specify the name of the ROI
+paralist.roi_type = 'IPS';
+
+% Please specify the center of the ROI (in mm)
+paralist.roicenter_value = [-26 -66 40];
+
+% Please specify the radius of the ROI (in mm)
+paralist.roiradius_value = 6;
+
+% Please specify the session number
+paralist.session_value = 1;
+
+% Please specify the PPI interaction name
+paralist.contrast_type = 'addcond1-addcond2';
+
+% Please specify the contrast weights matrix
+% contrastweights_value = [a1 b1; a2 b2];
+% a* is the condition number, b* is the weight
+paralist.contrastweights_value = [1 1; 2 -1];

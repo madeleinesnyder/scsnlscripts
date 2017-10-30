@@ -1,0 +1,33 @@
+% This is the folder which you will save defined ROIs
+roi_folder = '/home/tianwenc/roitest/roi_folder';
+
+% Define ROIs by specifying name, coordinates and radius
+myroi{1}.name = 'left_intraparietal_sulc';
+myroi{1}.coords = [-34 -44 42];
+myroi{1}.radius = 10;
+
+myroi{2}.name = 'right_cerebellum';
+myroi{2}.coords = [28 -62 -28];
+myroi{2}.radius = 10;
+
+myroi{3}.name = 'left_superior_parietal';
+myroi{3}.coords = [-26 -62 54];
+myroi{3}.radius = 10;
+
+myroi{4}.name = 'left_posterior_parietal';
+myroi{4}.coords = [-26 -48 36];
+myroi{4}.radius = 10;
+
+myroi{5}.name = 'right_superior_parietal';
+myroi{5}.coords = [12 -70 54];
+myroi{5}.radius = 10;
+
+myroi{6}.name = 'right_mid_occipital';
+myroi{6}.coords = [46 -74 2];
+myroi{6}.radius = 10;
+
+myroi{7}.name = 'right_mid_occipital';
+myroi{7}.coords = [26 -82 20];
+myroi{7}.radius = 10;
+
+

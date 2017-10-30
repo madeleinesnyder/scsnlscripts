@@ -1,0 +1,3 @@
+/home/groups/menon/oak/projects/jnichola/testproject/data/imaging/participants/2015/15-01-02.1_3T2/fmri/BART_1/behavioral
+Warning: more than 1 unconverted .txt file found in the Edat folder
+

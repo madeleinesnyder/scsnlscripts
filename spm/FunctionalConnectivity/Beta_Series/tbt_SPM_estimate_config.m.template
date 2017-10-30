@@ -1,0 +1,21 @@
+% Configuration file for tbt_SPM_estimate.m
+% _________________________________________________________________________
+% 2015 Stanford Cognitive and Systems Neuroscience Laboratory
+
+% Processed data directory (e.g. /mnt/musk2)
+paralist.preprocessed_dir = '/mnt/musk2';
+
+% Subject list file
+paralist.subjectlist_file = '/fs/apricot1_share1/intervention/shortIntervention/connectivity/beta_ts_corr/SI_subjectlist_n22.txt';
+
+% tbt data directory
+paralist.tbtdata_dir = '/mnt/apricot1_share1/intervention/shortIntervention/connectivity/beta_ts_corr/data';
+
+% Image pipeline
+paralist.pipeline_type = 'swgcavr';
+
+% Names of tasks to estimate
+paralist.taskname_list = {'Trained_Acc','Untrained_Acc'};
+
+% First level SPM stats directory
+paralist.stats_dir = 'volume_repair_4cond_swgcavr_whiz_4run_9dur_Feb11';

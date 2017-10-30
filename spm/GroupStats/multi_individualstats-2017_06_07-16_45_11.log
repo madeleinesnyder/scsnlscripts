@@ -1,0 +1,11 @@
+Current directory is: /home/groups/menon/oak/scsnlscripts/spm/GroupStats
+------------------------------------------------------------------
+{Not enough input arguments.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('multi_individualstats', '/home/groups/menon/oak/scsnlscripts/spm/IndividualStats/multi_individualstats.m', 19)" style="font-weight:bold">multi_individualstats</a> (<a href="matlab: opentoline('/home/groups/menon/oak/scsnlscripts/spm/IndividualStats/multi_individualstats.m',19,0)">line 19</a>)
+Config_File = strtrim(Config_File);
+} 
+multi_individualstats(c)
+==================================================================
+fMRI Multisession IndividualStats start at 2017/06/07 16:45:23 
+==================================================================

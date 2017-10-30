@@ -1,0 +1,35 @@
+% This is the configuration template file for fconnect group analysis
+% _________________________________________________________________________
+% 2009-2011 Stanford Cognitive and Systems Neuroscience Laboratory
+%
+% $Id: groupstats_config.m.template 2011-09-01 $
+% -------------------------------------------------------------------------
+
+% Please specify the processed data directory (where individualstats is located)
+paralist.processed_dir = '/fs/musk2';
+
+% Please specify the parent folder of the static data
+% For YEAR data structure, use the first one
+% For NONE YEAR data structure, use the second one
+paralist.parent_dir = [''];
+% paralist.parent_dir = 'UCSFBoxer'
+
+% Please specify file name holding subjects to be analyzed
+% For two group stats, specify two subject list files. For eg.,
+% {'group1.txt', 'group2.txt'}.
+paralist.subjectlist_file = {'subjectslist.txt'};
+
+% Please specify the directory which contains rois
+paralist.roi_dir  = 'R_FIC';
+
+% Plese specify the folder path to put analysis results
+paralist.results_dir = '/home/tianwenc/grouptest/group1';
+
+% Please specify the file holding regressors
+% If there is no regressor, comment the first line and uncomment the second
+% line
+paralist.regressor_file = {'IQ.txt','EQ.txt'};
+%paralist.regressor_file = [''];
+
+% Please specify the folder path holding template batches
+paralist.template_dir = '/home/fmri/fmrihome/SPM/spm8_scripts/BatchTemplates';

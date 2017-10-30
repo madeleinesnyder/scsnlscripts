@@ -1,0 +1,2 @@
+TASK	Scan_ID	Range x	Range y	Range z	Range pitch	Range roll	Range yaw	Max Displacement	Max Scan-to-Scan Displacement	Mean Scan-to-Scan Displacement	Num Scans > 0.5 Voxel Displacement	Num Scans > 5% Global Signal	% of Volumes Repaired
+comparison_dot	16-01-09.1_3T3	1.783175	4.852754	9.531048	10.169385	2.062370	3.407174	11.794418	10.691119	0.662107	12.000000	0.000000	7.222222
