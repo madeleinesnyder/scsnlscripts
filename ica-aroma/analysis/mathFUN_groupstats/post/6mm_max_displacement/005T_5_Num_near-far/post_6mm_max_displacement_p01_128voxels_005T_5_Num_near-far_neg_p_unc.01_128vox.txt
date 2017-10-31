@@ -1,0 +1,34 @@
+Filename: /mnt/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/post/6mm_max_displacement/005T_5_Num_near-far/post_6mm_max_displacement_p01_128voxels_005T_5_Num_near-far_neg_p_unc.01_128vox.txt 
+
+
+STATISTICS: search volume: /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/fsl41_greymatter_bin.img
+================================================================================
+set	set	cluster	cluster	cluster	cluster	peak	peak	peak	peak	peak	
+c	p	p(FWE-cor)	p(FDR-cor)	equivk	p(unc)	p(FWE-cor)	p(FDR-cor)	T	equivZ	p(unc)	x,y,z {mm}
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+table shows 3 local maxima more than 8.0mm apart
+--------------------------------------------------------------------------------
+Height threshold: T = 2.42, p = 0.010 (1.000)
+Extent threshold: k = 128 voxels, p = 0.223 (1.000)
+Expected voxels per cluster, <k> = 92.642
+Expected number of clusters, <c> = 7.61
+FWEp: 5.356, FDRp: Inf, FWEc: Inf, FDRc: Inf
+Degrees of freedom = [1.0, 41.0]
+FWHM = 14.1 14.2 14.1 mm mm mm; 7.1 7.1 7.1 {voxels}
+Volume: 1386888 = 173361 voxels = 497.3 resels
+Voxel size: 2.0 2.0 2.0 mm mm mm; (resel = 353.23 voxels)
+
+================================================================================
+

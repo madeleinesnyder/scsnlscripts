@@ -110,6 +110,7 @@ end
 % -------------------------------------------------------------------------
 % Start Individual Stats Processing
 % -------------------------------------------------------------------------
+TR = tr;
 
 for subcnt = 1:numsubj
 
@@ -320,7 +321,6 @@ template_path = foname{1};
 load(fullfile(template_path,'batch_stats.mat'));
 
 % Get TR value: initialized to 2 but will be update by calling GetTR.m
-TR = tr;
 matlabbatch{1}.spm.stats.fmri_spec.timing.RT = TR;
 % Initializing scans (in here sess is run, not session, default of spm)
 matlabbatch{1}.spm.stats.fmri_spec.sess(1).scans = {};

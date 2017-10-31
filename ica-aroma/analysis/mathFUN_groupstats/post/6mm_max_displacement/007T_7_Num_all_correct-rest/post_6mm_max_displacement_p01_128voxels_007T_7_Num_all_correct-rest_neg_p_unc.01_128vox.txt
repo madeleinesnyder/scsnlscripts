@@ -1,0 +1,34 @@
+Filename: /mnt/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/post/6mm_max_displacement/007T_7_Num_all_correct-rest/post_6mm_max_displacement_p01_128voxels_007T_7_Num_all_correct-rest_neg_p_unc.01_128vox.txt 
+
+
+STATISTICS: search volume: /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/fsl41_greymatter_bin.img
+================================================================================
+set	set	cluster	cluster	cluster	cluster	peak	peak	peak	peak	peak	
+c	p	p(FWE-cor)	p(FDR-cor)	equivk	p(unc)	p(FWE-cor)	p(FDR-cor)	T	equivZ	p(unc)	x,y,z {mm}
+--------------------------------------------------------------------------------
+0.976	3	0.000	0.000	72426	0.000	0.000	0.000	 10.21	 7.16	0.000	 36 -70  -8	
+						0.000	0.000	  9.69	 6.95	0.000	-20 -86  14	
+						0.000	0.000	  9.19	 6.74	0.000	-24 -74  26	
+		0.997	0.838	154	0.140	0.946	0.124	  3.85	 3.54	0.000	-44  -4 -16	
+		0.971	0.769	215	0.085	0.952	0.128	  3.83	 3.52	0.000	-36 -28  18	
+						1.000	0.299	  3.35	 3.13	0.001	-52 -24  24	
+
+
+
+
+
+
+table shows 3 local maxima more than 8.0mm apart
+--------------------------------------------------------------------------------
+Height threshold: T = 2.42, p = 0.010 (1.000)
+Extent threshold: k = 128 voxels, p = 0.175 (0.999)
+Expected voxels per cluster, <k> = 74.104
+Expected number of clusters, <c> = 7.26
+FWEp: 5.431, FDRp: 4.315, FWEc: 72426, FDRc: 72426
+Degrees of freedom = [1.0, 41.0]
+FWHM = 13.0 13.2 13.1 mm mm mm; 6.5 6.6 6.6 {voxels}
+Volume: 1386888 = 173361 voxels = 621.7 resels
+Voxel size: 2.0 2.0 2.0 mm mm mm; (resel = 282.54 voxels)
+
+================================================================================
+

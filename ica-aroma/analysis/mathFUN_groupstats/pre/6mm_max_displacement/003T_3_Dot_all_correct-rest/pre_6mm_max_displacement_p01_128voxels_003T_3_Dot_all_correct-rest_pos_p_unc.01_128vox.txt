@@ -1,0 +1,40 @@
+Filename: /mnt/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/6mm_max_displacement/003T_3_Dot_all_correct-rest/pre_6mm_max_displacement_p01_128voxels_003T_3_Dot_all_correct-rest_pos_p_unc.01_128vox.txt 
+
+
+STATISTICS: search volume: /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/fsl41_greymatter_bin.img
+================================================================================
+set	set	cluster	cluster	cluster	cluster	peak	peak	peak	peak	peak	
+c	p	p(FWE-cor)	p(FDR-cor)	equivk	p(unc)	p(FWE-cor)	p(FDR-cor)	T	equivZ	p(unc)	x,y,z {mm}
+--------------------------------------------------------------------------------
+0.731	6	0.236	0.162	629	0.007	0.049	0.049	  5.35	 4.69	0.000	 48 -54  54	
+						0.992	0.686	  3.60	 3.36	0.000	 46 -56  42	
+						0.995	0.686	  3.55	 3.32	0.000	 42 -66  54	
+		0.061	0.084	922	0.002	0.065	0.049	  5.26	 4.62	0.000	 42  50   0	
+						0.926	0.620	  3.87	 3.57	0.000	 52  36  -2	
+						0.994	0.686	  3.57	 3.34	0.000	 38  56  16	
+		0.330	0.162	556	0.010	0.199	0.119	  4.82	 4.31	0.000	-62 -10  40	
+						0.971	0.686	  3.73	 3.47	0.000	-62  -8  18	
+						0.998	0.686	  3.47	 3.25	0.001	-52  -8  32	
+		0.381	0.162	524	0.012	0.344	0.181	  4.59	 4.13	0.000	-44 -56  56	
+						0.632	0.307	  4.25	 3.88	0.000	-48 -60  48	
+						0.999	0.722	  3.42	 3.21	0.001	-60 -44  42	
+		0.729	0.353	358	0.031	0.767	0.391	  4.10	 3.76	0.000	-38  50  -4	
+						0.960	0.686	  3.78	 3.50	0.000	-38  44   4	
+						0.996	0.686	  3.52	 3.29	0.000	-42  44  -8	
+		0.998	0.934	143	0.153	1.000	0.913	  3.15	 2.98	0.001	  6  36  36	
+						1.000	0.961	  2.96	 2.81	0.002	 -8  30  38	
+
+table shows 3 local maxima more than 8.0mm apart
+--------------------------------------------------------------------------------
+Height threshold: T = 2.41, p = 0.010 (1.000)
+Extent threshold: k = 128 voxels, p = 0.175 (0.999)
+Expected voxels per cluster, <k> = 73.989
+Expected number of clusters, <c> = 7.26
+FWEp: 5.348, FDRp: 5.248, FWEc: Inf, FDRc: Inf
+Degrees of freedom = [1.0, 45.0]
+FWHM = 13.0 13.1 13.1 mm mm mm; 6.5 6.6 6.5 {voxels}
+Volume: 1445808 = 180726 voxels = 628.4 resels
+Voxel size: 2.0 2.0 2.0 mm mm mm; (resel = 279.54 voxels)
+
+================================================================================
+

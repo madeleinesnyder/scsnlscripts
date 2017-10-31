@@ -1,0 +1,13 @@
+Current directory is: /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria
+------------------------------------------------------------------
+-------------- Contents of the Parameter List --------------------
+       stats_path: '/fs/musk2'
+    parent_folder: ''
+    subjlist_file: {'ASD25.txt'}
+     stats_folder: 'stats_spm8_comparison_5cond_modeling_CandB_SM'
+    output_folder: '/mnt/apricot1_share1/MathFUN_ASD/Sam_Preprocessing/groupstats/ASD'
+         reg_file: ''
+    template_path: '/home/fmri/fmrihome/SPM/spm8_scripts/BatchTemplates'
+
+------------------------------------------------------------------
+File does not exist: ASD25.txt

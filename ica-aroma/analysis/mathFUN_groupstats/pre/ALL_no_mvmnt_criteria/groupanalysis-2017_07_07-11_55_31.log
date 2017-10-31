@@ -1,0 +1,112 @@
+Current directory is: /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria
+------------------------------------------------------------------
+-------------- Contents of the Parameter List --------------------
+       stats_path: '/fs/musk2'
+    parent_folder: ''
+    subjlist_file: {'all_pre.txt'}
+     stats_folder: 'stats_spm8_AROMA_nonaggr_comparison_5cond_modeling_choice_and_blank'
+    output_folder: '/mnt/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria'
+         reg_file: ''
+    template_path: '/home/fmri/fmrihome/SPM/spm8_scripts/BatchTemplates'
+
+------------------------------------------------------------------
+Duplicate application tag in applications 'SPM' and 'SPM'.
+Duplicate application tag in applications 'BasicIO' and 'BasicIO'.
+{Warning: Directory already exists.} 
+> In groupstats at 184
+{Warning: Directory already exists.} 
+> In groupstats at 196
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Factorial design specification'
+Mapping files                           : Failed  'Factorial design specification'
+Error using ==> spm_vol>subfunc at 111
+File "/fs/musk2/2012/12-03-10.1_3T3/fmri/stats_spm8/stats_spm8_AROMA_nonaggr_comparison_5cond_modeling_choice_and_blank/con_0001.img" does not exist.
+In file "/home/fmri/fmrihome/SPM/spm8/spm_vol.m" (v2237), function "subfunc" at line 111.
+In file "/home/fmri/fmrihome/SPM/spm8/spm_vol.m" (v2237), function "subfunc1" at line 84.
+In file "/home/fmri/fmrihome/SPM/spm8/spm_vol.m" (v2237), function "subfunc2" at line 70.
+In file "/home/fmri/fmrihome/SPM/spm8/spm_vol.m" (v2237), function "spm_vol" at line 54.
+In file "/mnt/mapricot/musk2/home/fmri/fmrihome/SPM/spm8/config/spm_run_factorial_design.m" (v3860), function "spm_run_factorial_design" at line 638.
+
+Running 'Model estimation'
+Failed  'Model estimation'
+Error using ==> load
+Unable to read file /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria/001T_1_Dot_near-far/SPM.mat: No such file or directory.
+In file "/mnt/mapricot/musk2/home/fmri/fmrihome/SPM/spm8/config/spm_run_fmri_est.m" (v3691), function "spm_run_fmri_est" at line 18.
+
+Running 'Contrast Manager'
+   Changing directory to: /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria/001T_1_Dot_near-far
+Failed  'Contrast Manager'
+Error using ==> load
+Unable to read file /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria/001T_1_Dot_near-far/SPM.mat: No such file or directory.
+In file "/mnt/mapricot/musk2/home/fmri/fmrihome/SPM/spm8/config/spm_run_con.m" (v3993), function "spm_run_con" at line 32.
+
+The following modules did not run:
+Failed: Factorial design specification
+Failed: Model estimation
+Failed: Contrast Manager
+
+{??? Error using ==> cfg_util at 808
+Job execution failed. The full log of this run can be found in MATLAB command window, starting with the lines (look for the
+line showing the exact #job as displayed in this error message)
+------------------
+Running job #1
+------------------
+
+
+Error in ==> spm_jobman at 206
+
+
+Error in ==> groupstats at 254
+
+} 
+cd ../
+{??? Error using ==> cd
+Cannot CD to ../ (Directory access failure).
+} 
+ls
+tcsh: No such file or directory
+tcsh: Trying to start from "/home/shelbyka"
+[0m[01;34mmatlab[0m                   matlab_crash_dump.24636  matlab_crash_dump.27084  matlab_crash_dump.32371
+matlab_crash_dump.13851  matlab_crash_dump.25198  matlab_crash_dump.2735   matlab_crash_dump.9843
+matlab_crash_dump.16856  matlab_crash_dump.2645   matlab_crash_dump.30717
+[m
+cd /fs/apricot1_share1/MathFUNDamentals/ICA_AROMA/individualstats/
+ls
+[0m[01;32mcontrasts_4highlevel_4lowlevel.mat[0m       individualstats-2017_06_28-16_02_45.log  individualstats-2017_07_05-12_29_45.log
+[01;32mcontrasts_dot.mat[0m                        individualstats-2017_06_28-16_03_54.log  individualstats-2017_07_05-15_16_56.log
+[01;32mcontrasts_number.mat[0m                     individualstats-2017_06_28-16_31_55.log  individualstats_2_config.m
+individualstats-2017_06_27-18_16_26.log  individualstats-2017_06_28-16_33_15.log  individualstats_3_config.m
+individualstats-2017_06_27-18_44_04.log  individualstats-2017_06_28-16_34_53.log  individualstats_4_config.m
+individualstats-2017_06_27-18_45_25.log  individualstats-2017_06_28-17_04_12.log  individualstats_5_config.m
+individualstats-2017_06_27-18_47_49.log  individualstats-2017_06_28-17_12_30.log  individualstats_7_config.m
+individualstats-2017_06_27-18_59_23.log  individualstats-2017_06_28-17_27_50.log  [01;32mindividualstats_AROMA1.m[0m
+individualstats-2017_06_27-18_59_55.log  individualstats-2017_06_29-11_21_54.log  individualstats_config_1.m
+individualstats-2017_06_28-11_52_27.log  individualstats-2017_06_29-12_59_45.log  individualstats_config_1.m~
+individualstats-2017_06_28-11_53_51.log  individualstats-2017_06_29-13_28_09.log  individualstats_config_6.m
+individualstats-2017_06_28-11_58_40.log  individualstats-2017_06_29-13_40_55.log  [01;32mindividualstats_config.m[0m
+individualstats-2017_06_28-11_59_34.log  individualstats-2017_06_29-13_50_15.log  individualstats_config.m~
+individualstats-2017_06_28-11_59_42.log  individualstats-2017_06_29-13_51_38.log  [01;32mmulti_individualstats_config.m[0m
+individualstats-2017_06_28-12_01_53.log  individualstats-2017_06_29-14_08_24.log  multi_individualstats_config.m~
+individualstats-2017_06_28-12_02_56.log  individualstats-2017_06_29-14_20_23.log  [01;32msessions_dot_and_number_redo.txt[0m
+individualstats-2017_06_28-12_03_50.log  individualstats-2017_06_29-14_21_09.log  [01;32msessions_dot_redo_and_number_redo.txt[0m
+individualstats-2017_06_28-12_04_59.log  individualstats-2017_06_29-14_32_04.log  [01;32msessions_dot_redo_and_number.txt[0m
+individualstats-2017_06_28-12_05_29.log  individualstats-2017_06_29-14_47_02.log  [01;32msessions_no_redo.txt[0m
+individualstats-2017_06_28-12_07_20.log  individualstats-2017_06_29-14_48_44.log  [01;32msessions_number_redo.txt[0m
+individualstats-2017_06_28-12_08_26.log  individualstats-2017_06_29-14_53_24.log  [01;32msubject_no_redo_1.txt[0m
+individualstats-2017_06_28-12_25_53.log  individualstats-2017_06_30-13_16_35.log  subject_no_redo_1.txt~
+individualstats-2017_06_28-12_30_52.log  individualstats-2017_06_30-13_17_10.log  [01;32msubjects_dot_and_number_redo.txt[0m
+individualstats-2017_06_28-12_58_24.log  individualstats-2017_07_02-08_43_05.log  [01;32msubjects_dot_redo_and_number_redo.txt[0m
+individualstats-2017_06_28-13_32_26.log  individualstats-2017_07_02-09_08_33.log  [01;32msubjects_dot_redo_and_number.txt[0m
+individualstats-2017_06_28-13_46_30.log  individualstats-2017_07_05-10_19_31.log  [01;32msubjects_no_redo.txt[0m
+individualstats-2017_06_28-13_48_48.log  individualstats-2017_07_05-11_16_07.log  [01;32msubjects_number_redo.txt[0m
+individualstats-2017_06_28-15_08_13.log  individualstats-2017_07_05-11_58_45.log
+[m
+edit individualstats_config.m
+individualstats_AROMA1('individualstats_config.m')
+==================================================================
+fMRI IndividualStats start at 2017/07/07 12:49:34 
+==================================================================

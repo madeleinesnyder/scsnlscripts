@@ -1,0 +1,34 @@
+Filename: /mnt/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/post/ALL_no_mvmnt_criteria/007T_7_Num_all_correct-rest/post_ALL_no_mvmnt_criteria_p01_128voxels_007T_7_Num_all_correct-rest_pos_p_unc.01_128vox.txt 
+
+
+STATISTICS: search volume: /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/fsl41_greymatter_bin.img
+================================================================================
+set	set	cluster	cluster	cluster	cluster	peak	peak	peak	peak	peak	
+c	p	p(FWE-cor)	p(FDR-cor)	equivk	p(unc)	p(FWE-cor)	p(FDR-cor)	T	equivZ	p(unc)	x,y,z {mm}
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+table shows 3 local maxima more than 8.0mm apart
+--------------------------------------------------------------------------------
+Height threshold: T = 2.39, p = 0.010 (1.000)
+Extent threshold: k = 128 voxels, p = 0.186 (0.999)
+Expected voxels per cluster, <k> = 78.075
+Expected number of clusters, <c> = 7.37
+FWEp: 5.159, FDRp: Inf, FWEc: Inf, FDRc: Inf
+Degrees of freedom = [1.0, 57.0]
+FWHM = 13.2 13.5 13.0 mm mm mm; 6.6 6.7 6.5 {voxels}
+Volume: 1324688 = 165586 voxels = 607.3 resels
+Voxel size: 2.0 2.0 2.0 mm mm mm; (resel = 289.26 voxels)
+
+================================================================================
+

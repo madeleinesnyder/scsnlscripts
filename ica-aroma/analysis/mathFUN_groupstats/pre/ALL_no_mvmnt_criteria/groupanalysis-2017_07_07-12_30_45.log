@@ -1,0 +1,69 @@
+Current directory is: /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria
+------------------------------------------------------------------
+-------------- Contents of the Parameter List --------------------
+       stats_path: '/fs/musk2'
+    parent_folder: ''
+    subjlist_file: {'all_pre.txt'}
+     stats_folder: 'stats_spm8_AROMA_nonaggr_comparison_5cond_modeling_choice_and_blank'
+    output_folder: '/mnt/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria'
+         reg_file: ''
+    template_path: '/home/fmri/fmrihome/SPM/spm8_scripts/BatchTemplates'
+
+------------------------------------------------------------------
+Duplicate application tag in applications 'SPM' and 'SPM'.
+Duplicate application tag in applications 'BasicIO' and 'BasicIO'.
+{Warning: Directory already exists.} 
+> In groupstats at 184
+{Warning: Directory already exists.} 
+> In groupstats at 196
+
+
+------------------------------------------------------------------------
+Running job #1
+------------------------------------------------------------------------
+Running 'Factorial design specification'
+Mapping files                           : Failed  'Factorial design specification'
+Error using ==> spm_vol>subfunc at 111
+File "/fs/musk2/2012/12-03-10.1_3T3/fmri/stats_spm8/stats_spm8_AROMA_nonaggr_comparison_5cond_modeling_choice_and_blank/con_0001.img" does not exist.
+In file "/home/fmri/fmrihome/SPM/spm8/spm_vol.m" (v2237), function "subfunc" at line 111.
+In file "/home/fmri/fmrihome/SPM/spm8/spm_vol.m" (v2237), function "subfunc1" at line 84.
+In file "/home/fmri/fmrihome/SPM/spm8/spm_vol.m" (v2237), function "subfunc2" at line 70.
+In file "/home/fmri/fmrihome/SPM/spm8/spm_vol.m" (v2237), function "spm_vol" at line 54.
+In file "/mnt/mapricot/musk2/home/fmri/fmrihome/SPM/spm8/config/spm_run_factorial_design.m" (v3860), function "spm_run_factorial_design" at line 638.
+
+Running 'Model estimation'
+Failed  'Model estimation'
+Error using ==> load
+Unable to read file /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria/001T_1_Dot_near-far/SPM.mat: No such file or directory.
+In file "/mnt/mapricot/musk2/home/fmri/fmrihome/SPM/spm8/config/spm_run_fmri_est.m" (v3691), function "spm_run_fmri_est" at line 18.
+
+Running 'Contrast Manager'
+   Changing directory to: /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria/001T_1_Dot_near-far
+Failed  'Contrast Manager'
+Error using ==> load
+Unable to read file /mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/groupstats/pre/ALL_no_mvmnt_criteria/001T_1_Dot_near-far/SPM.mat: No such file or directory.
+In file "/mnt/mapricot/musk2/home/fmri/fmrihome/SPM/spm8/config/spm_run_con.m" (v3993), function "spm_run_con" at line 32.
+
+The following modules did not run:
+Failed: Factorial design specification
+Failed: Model estimation
+Failed: Contrast Manager
+
+{??? Error using ==> cfg_util at 808
+Job execution failed. The full log of this run can be found in MATLAB command window, starting with the lines (look for the line showing the exact #job as displayed in this error message)
+------------------
+Running job #1
+------------------
+
+
+Error in ==> spm_jobman at 206
+
+
+Error in ==> groupstats at 254
+
+} 
+uiopen('/mnt/mabloo1/apricot1_share1/MathFUNDamentals/ICA_AROMA/individualstats/individualstats_config_1.m', true);
+groupstats('groupstats_all_pre_config.m')
+==================================================================
+fMRI GroupAnalysis start at 2017/07/07 12:34:18
+==================================================================
